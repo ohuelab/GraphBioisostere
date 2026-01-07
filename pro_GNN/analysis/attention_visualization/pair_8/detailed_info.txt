@@ -1,0 +1,24 @@
+=== 分子ペア 8 の詳細情報 ===
+
+【基本情報】
+REF-SMILES: CNCCN1CC(NCc2cccc(OC(F)(F)F)c2)C1
+PRB-SMILES: CNCCN1CC(NCc2cccc(Br)c2)C1
+実際のラベル: 生物学的等価体 (True)
+データセット内のインデックス: 604813
+
+【詳細メタデータ】
+REF-CHEMBL ID: CHEMBL4089823
+PRB-CHEMBL ID: CHEMBL4081966
+アッセイID (AID): 1645711
+標的ID (TID): CHEMBL1275221
+測定タイプ: IC50                
+REF分子の標準値: 434.0
+PRB分子の標準値: 249.0
+活性差 (delta_value): 0.2412903824167744
+カット数: 2
+共通フラグメント: *NCCN1CC(N[8*])C1.[1*]C
+REFフラグメント: [7*]Cc1cccc(OC(F)(F)F)c1
+PRBフラグメント: [7*]Cc1cccc(Br)c1
+SMIRKS反応: [*NCCN1CC(N[8*])C1.[1*]C]>>[[7*]Cc1cccc(OC(F)(F)F)c1]|[[7*]Cc1cccc(Br)c1]...
+
+生成日時: 2025-11-16 17:25:09

@@ -1,0 +1,3 @@
+REF-SMILES: COc1cc(OC)cc(N(C[C@H](O)CNCC(F)(F)F)c2ccc3ncc(-c4cnn(C)c4)nc3c2)c1
+PRB-SMILES: COc1cc(OC)cc(N(CCNCCO)c2ccc3ncc(-c4cnn(C)c4)nc3c2)c1
+実際のラベル（生物学的等価体）: True

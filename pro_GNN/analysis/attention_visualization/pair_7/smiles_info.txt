@@ -1,0 +1,3 @@
+REF-SMILES: C=CC(=O)Nc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCCNC(=O)NCCC
+PRB-SMILES: C=CC(=O)Nc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCCNC(=O)CN1CC=CC1
+実際のラベル（生物学的等価体）: True

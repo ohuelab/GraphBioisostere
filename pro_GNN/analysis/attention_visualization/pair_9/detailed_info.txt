@@ -1,0 +1,24 @@
+=== 分子ペア 9 の詳細情報 ===
+
+【基本情報】
+REF-SMILES: Cc1cc(-c2n[nH]c3cc(NC(=O)NC[C@@H]4COCCO4)ncc23)ccn1
+PRB-SMILES: Cc1cc(-c2n[nH]c3cc(NC(=O)N[C@@H]4CCN(CC(F)(F)F)C4)ncc23)ccn1
+実際のラベル: 生物学的等価体 (True)
+データセット内のインデックス: 322013
+
+【詳細メタデータ】
+REF-CHEMBL ID: CHEMBL3663005
+PRB-CHEMBL ID: CHEMBL3658694
+アッセイID (AID): 1528121
+標的ID (TID): CHEMBL4040
+測定タイプ: IC50                
+REF分子の標準値: 2.434
+PRB分子の標準値: 3.539
+活性差 (delta_value): -0.1625599887434687
+カット数: 1
+共通フラグメント: [14*]NC(=O)Nc1cc2[nH]nc(-c3ccnc(C)c3)c2cn1
+REFフラグメント: [13*]C[C@@H]1COCCO1
+PRBフラグメント: [13*][C@@H]1CCN(CC(F)(F)F)C1
+SMIRKS反応: [[14*]NC(=O)Nc1cc2[nH]nc(-c3ccnc(C)c3)c2cn1]>>[[13*]C[C@@H]1COCCO1]|[[13*][C@@H]1CCN(CC(F)(F)F)C1]...
+
+生成日時: 2025-11-16 17:25:09

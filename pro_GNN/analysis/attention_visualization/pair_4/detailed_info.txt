@@ -1,0 +1,24 @@
+=== 分子ペア 4 の詳細情報 ===
+
+【基本情報】
+REF-SMILES: C[C@@H]1CN(CC(=O)N2CC(C)(C)c3ncc(Cc4ccccc4)cc32)[C@@H](Cn2cc(F)cn2)CN1
+PRB-SMILES: C[C@@H]1CN(CC(=O)N2CC(C)(C)c3ncc(Cc4ccccc4)cc32)[C@@H](C(=O)N(C)C)CN1
+実際のラベル: 非等価体 (False)
+データセット内のインデックス: 610663
+
+【詳細メタデータ】
+REF-CHEMBL ID: CHEMBL3700048
+PRB-CHEMBL ID: CHEMBL3700047
+アッセイID (AID): 1666042
+標的ID (TID): CHEMBL4198
+測定タイプ: IC50                
+REF分子の標準値: 110.0
+PRB分子の標準値: 250.0
+活性差 (delta_value): -0.3565473235138126
+カット数: 1
+共通フラグメント: [26*][C@H]1CN[C@H](C)CN1CC(=O)N1CC(C)(C)c2ncc(Cc3ccccc3)cc21
+REFフラグメント: [25*]Cn1cc(F)cn1
+PRBフラグメント: [25*]C(=O)N(C)C
+SMIRKS反応: [[26*][C@H]1CN[C@H](C)CN1CC(=O)N1CC(C)(C)c2ncc(Cc3ccccc3)cc21]>>[[25*]Cn1cc(F)cn1]|[[25*]C(=O)N(C)C]...
+
+生成日時: 2025-11-16 17:25:09

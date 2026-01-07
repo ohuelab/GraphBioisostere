@@ -1,0 +1,24 @@
+=== 分子ペア 10 の詳細情報 ===
+
+【基本情報】
+REF-SMILES: Cc1nn(C2CCCCC2)c2sc(C(=O)Nc3ccc(N4CCC(O)CC4)c(F)c3F)cc12
+PRB-SMILES: Cc1nn(C2CCCCC2)c2sc(C(=O)N[C@H]3CC[C@H](N4CCC(O)CC4)CC3)cc12
+実際のラベル: 生物学的等価体 (True)
+データセット内のインデックス: 399856
+
+【詳細メタデータ】
+REF-CHEMBL ID: CHEMBL3650320
+PRB-CHEMBL ID: CHEMBL3650252
+アッセイID (AID): 1528543
+標的ID (TID): CHEMBL3012
+測定タイプ: IC50                
+REF分子の標準値: 17.0
+PRB分子の標準値: 20.0
+活性差 (delta_value): -0.0705810742857073
+カット数: 2
+共通フラグメント: [15*]C(=O)c1cc2c(C)nn(C3CCCCC3)c2s1.[23*]O
+REFフラグメント: [13*]Nc1ccc(N2CCC([24*])CC2)c(F)c1F
+PRBフラグメント: [13*]N[C@H]1CC[C@H](N2CCC([24*])CC2)CC1
+SMIRKS反応: [[15*]C(=O)c1cc2c(C)nn(C3CCCCC3)c2s1.[23*]O]>>[[13*]Nc1ccc(N2CCC([24*])CC2)c(F)c1F]|[[13*]N[C@H]1CC[C@H](N2CCC([24*])CC2)CC1]...
+
+生成日時: 2025-11-16 17:25:09

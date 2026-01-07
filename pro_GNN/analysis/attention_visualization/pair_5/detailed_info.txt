@@ -1,0 +1,24 @@
+=== 分子ペア 5 の詳細情報 ===
+
+【基本情報】
+REF-SMILES: C=CCN(C(=O)CNC(=O)c1cc2cc(Cl)ccc2[nH]1)C1CCCC1
+PRB-SMILES: N#CCN(C(=O)CNC(=O)c1cc2cc(Cl)ccc2[nH]1)C1CCCC1
+実際のラベル: 非等価体 (False)
+データセット内のインデックス: 27966
+
+【詳細メタデータ】
+REF-CHEMBL ID: CHEMBL181456
+PRB-CHEMBL ID: CHEMBL433766
+アッセイID (AID): 304931
+標的ID (TID): CHEMBL2568
+測定タイプ: IC50                
+REF分子の標準値: 96.0
+PRB分子の標準値: 30.0
+活性差 (delta_value): 0.505149978319906
+カット数: 1
+共通フラグメント: [2*]N(C(=O)CNC(=O)c1cc2cc(Cl)ccc2[nH]1)C1CCCC1
+REFフラグメント: [3*]CC=C
+PRBフラグメント: [3*]CC#N
+SMIRKS反応: [[2*]N(C(=O)CNC(=O)c1cc2cc(Cl)ccc2[nH]1)C1CCCC1]>>[[3*]CC=C]|[[3*]CC#N]...
+
+生成日時: 2025-11-16 17:25:09

@@ -1,0 +1,24 @@
+=== 分子ペア 7 の詳細情報 ===
+
+【基本情報】
+REF-SMILES: C=CC(=O)Nc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCCNC(=O)NCCC
+PRB-SMILES: C=CC(=O)Nc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCCNC(=O)CN1CC=CC1
+実際のラベル: 生物学的等価体 (True)
+データセット内のインデックス: 435175
+
+【詳細メタデータ】
+REF-CHEMBL ID: CHEMBL3671507
+PRB-CHEMBL ID: CHEMBL3671577
+アッセイID (AID): 1528897
+標的ID (TID): CHEMBL203
+測定タイプ: IC50                
+REF分子の標準値: 26.0
+PRB分子の標準値: 32.0
+活性差 (delta_value): -0.090176630349088
+カット数: 1
+共通フラグメント: [30*]C(=O)NCCOc1cc2ncnc(Nc3ccc(Br)cc3F)c2cc1NC(=O)C=C
+REFフラグメント: [28*]NCCC
+PRBフラグメント: [28*]CN1CC=CC1
+SMIRKS反応: [[30*]C(=O)NCCOc1cc2ncnc(Nc3ccc(Br)cc3F)c2cc1NC(=O)C=C]>>[[28*]NCCC]|[[28*]CN1CC=CC1]...
+
+生成日時: 2025-11-16 17:25:09

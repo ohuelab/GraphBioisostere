@@ -1,0 +1,24 @@
+=== 分子ペア 6 の詳細情報 ===
+
+【基本情報】
+REF-SMILES: CCc1ncnc(-c2ccc(C(=O)N3CCN(CC4CCCCC4)CC3)c(F)c2)c1C#Cc1ccc(N)nc1
+PRB-SMILES: CCc1ncnc(-c2ccc(C(=O)N3CCC(N4CCCC4)CC3)c(F)c2)c1C#Cc1ccc(N)nc1
+実際のラベル: 非等価体 (False)
+データセット内のインデックス: 283545
+
+【詳細メタデータ】
+REF-CHEMBL ID: CHEMBL3643102
+PRB-CHEMBL ID: CHEMBL3643118
+アッセイID (AID): 1528014
+標的ID (TID): CHEMBL4005
+測定タイプ: IC50                
+REF分子の標準値: 1825.0
+PRB分子の標準値: 323.0
+活性差 (delta_value): 0.7520603464613904
+カット数: 1
+共通フラグメント: [13*]C(=O)c1ccc(-c2ncnc(CC)c2C#Cc2ccc(N)nc2)cc1F
+REFフラグメント: [11*]N1CCN(CC2CCCCC2)CC1
+PRBフラグメント: [11*]N1CCC(N2CCCC2)CC1
+SMIRKS反応: [[13*]C(=O)c1ccc(-c2ncnc(CC)c2C#Cc2ccc(N)nc2)cc1F]>>[[11*]N1CCN(CC2CCCCC2)CC1]|[[11*]N1CCC(N2CCCC2)CC1]...
+
+生成日時: 2025-11-16 17:25:09

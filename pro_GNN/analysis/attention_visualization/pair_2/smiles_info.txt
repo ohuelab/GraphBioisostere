@@ -1,0 +1,3 @@
+REF-SMILES: O=C(CCN1CCC(n2nccn2)CC1)N1CCC[C@H]1c1nc2cc(Cl)c(Cl)cc2[nH]1
+PRB-SMILES: O=C(CCN1CC(c2ccccc2)C1)N1CCC[C@H]1c1nc2cc(Cl)c(Cl)cc2[nH]1
+実際のラベル（生物学的等価体）: False

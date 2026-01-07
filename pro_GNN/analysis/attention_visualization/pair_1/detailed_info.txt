@@ -1,0 +1,24 @@
+=== 分子ペア 1 の詳細情報 ===
+
+【基本情報】
+REF-SMILES: COc1cc2ncnc(Nc3cccc(Cl)c3F)c2cc1CN1CCCC[C@@H]1C(N)=O
+PRB-SMILES: COc1cc2ncnc(Nc3cccc(Cl)c3F)c2cc1CN(C)[C@H](C)C(=O)N(C)C
+実際のラベル: 生物学的等価体 (True)
+データセット内のインデックス: 50369
+
+【詳細メタデータ】
+REF-CHEMBL ID: CHEMBL206783
+PRB-CHEMBL ID: CHEMBL380006
+アッセイID (AID): 354927
+標的ID (TID): CHEMBL4630
+測定タイプ: IC50                
+REF分子の標準値: 10000.0
+PRB分子の標準値: 10000.0
+活性差 (delta_value): 0.0
+カット数: 1
+共通フラグメント: [22*]Cc1cc2c(Nc3cccc(Cl)c3F)ncnc2cc1OC
+REFフラグメント: [21*]N1CCCC[C@@H]1C(N)=O
+PRBフラグメント: [21*]N(C)[C@H](C)C(=O)N(C)C
+SMIRKS反応: [[22*]Cc1cc2c(Nc3cccc(Cl)c3F)ncnc2cc1OC]>>[[21*]N1CCCC[C@@H]1C(N)=O]|[[21*]N(C)[C@H](C)C(=O)N(C)C]...
+
+生成日時: 2025-11-16 17:25:08

@@ -1,0 +1,24 @@
+=== 分子ペア 3 の詳細情報 ===
+
+【基本情報】
+REF-SMILES: COc1cc(OC)cc(N(C[C@H](O)CNCC(F)(F)F)c2ccc3ncc(-c4cnn(C)c4)nc3c2)c1
+PRB-SMILES: COc1cc(OC)cc(N(CCNCCO)c2ccc3ncc(-c4cnn(C)c4)nc3c2)c1
+実際のラベル: 生物学的等価体 (True)
+データセット内のインデックス: 567241
+
+【詳細メタデータ】
+REF-CHEMBL ID: CHEMBL3975397
+PRB-CHEMBL ID: CHEMBL3944610
+アッセイID (AID): 1637333
+標的ID (TID): CHEMBL1974
+測定タイプ: IC50                
+REF分子の標準値: 10000.0
+PRB分子の標準値: 10000.0
+活性差 (delta_value): 0.0
+カット数: 1
+共通フラグメント: [10*]N(c1cc(OC)cc(OC)c1)c1ccc2ncc(-c3cnn(C)c3)nc2c1
+REFフラグメント: [9*]C[C@H](O)CNCC(F)(F)F
+PRBフラグメント: [9*]CCNCCO
+SMIRKS反応: [[10*]N(c1cc(OC)cc(OC)c1)c1ccc2ncc(-c3cnn(C)c3)nc2c1]>>[[9*]C[C@H](O)CNCC(F)(F)F]|[[9*]CCNCCO]...
+
+生成日時: 2025-11-16 17:25:09
