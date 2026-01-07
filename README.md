@@ -76,7 +76,7 @@ pip install rdkit pandas numpy scikit-learn lightgbm matplotlib seaborn tqdm
 
 ### Download Dataset
 
-The dataset should be downloaded separately and placed in a directory (e.g., `origin_data_minfrag/`). The dataset should contain:
+The dataset should be downloaded separately and placed in a directory (e.g., `MMP_dataset/`). The dataset should contain:
 
 - `dataset_consistentsmiles.csv`: Main CSV file with MMP pairs and labels
 - The CSV should include columns: `smiles1`, `smiles2`, `label`, `tid` (target ID), etc.
@@ -95,7 +95,7 @@ Convert CSV to PyTorch geometric data format:
 
 ```bash
 cd pro_GNN
-python prep_cls_all.py /path/to/origin_data_minfrag/
+python prep_cls_all.py /path/to/MMP_dataset/
 ```
 
 This generates `dataset_consistentsmiles.pt` containing graph representations of all molecule pairs.
@@ -107,9 +107,9 @@ Create 5-fold cross-validation splits based on target IDs:
 ```bash
 cd splitting
 python data_splitting.py \
-    --csv_path /path/to/origin_data_minfrag/dataset_consistentsmiles.csv \
+    --csv_path /path/to/MMP_dataset/dataset_consistentsmiles.csv \
     --output_dir /path/to/pro_GNN/dataset/dataset_cv \
-    --data_path /path/to/origin_data_minfrag/dataset_consistentsmiles.pt \
+    --data_path /path/to/MMP_dataset/dataset_consistentsmiles.pt \
     --pkl_output tid_5cv.pkl \
     --seed 41
 ```
@@ -147,7 +147,7 @@ done
 For fragment-only predictions:
 
 ```bash
-python prep_cls_frag_all.py /path/to/origin_data_minfrag/
+python prep_cls_frag_all.py /path/to/MMP_dataset/
 # Then split and train similarly
 ```
 
@@ -158,7 +158,7 @@ Train LightGBM baseline with ECFP4 fingerprints:
 ```bash
 cd gbdt
 # Generate fingerprints
-python prep_ecfp4.py /path/to/origin_data_minfrag/ --radius 2 --n_bits 2048
+python prep_ecfp4.py /path/to/MMP_dataset/ --radius 2 --n_bits 2048
 
 # Train GBDT
 python run_gbdt.py
@@ -248,6 +248,6 @@ This project builds upon:
 
 ## Notes
 
-- The dataset (`origin_data_minfrag/`) is not included in this repository and must be obtained separately
+- The dataset (`MMP_dataset/`) is not included in this repository and must be obtained separately
 - GPU with at least 16GB memory is recommended for training
 - Training time varies by fold and configuration (typically 1-3 hours per fold on modern GPUs)

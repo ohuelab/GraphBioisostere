@@ -238,7 +238,7 @@ class BioisosterePredictionAnalyzer:
         print(f"  → {len(self.cvs)} フォールドのデータを読み込みました")
             
         # マージデータの読み込み（GNN評価用）
-        merge_path = self.base_dir / "origin_data_minfrag" / "dataset_consistentsmiles_with_properties.csv"
+        merge_path = self.base_dir / "MMP_dataset" / "dataset_consistentsmiles_with_properties.csv"
         if not merge_path.exists():
             raise FileNotFoundError(f"マージデータファイルが見つかりません: {merge_path}")
         self.merge_df = pd.read_csv(merge_path)
@@ -271,7 +271,7 @@ class BioisosterePredictionAnalyzer:
             # デフォルト
             joblib_filename = "dataset_consistentsmiles-2048.joblib"
         
-        joblib_path = self.base_dir / "origin_data_minfrag" / joblib_filename
+        joblib_path = self.base_dir / "MMP_dataset" / joblib_filename
         
         if joblib_path.exists():
             print(f"LGBM評価用データを読み込み: {joblib_filename}")

@@ -20,7 +20,7 @@ for CONFIG_SUFFIX in 2048 frag; do
     for FOLD in 0 1 2 3 4; do
         date
         # CONFIG_SUFFIXを使って、入力ファイルと出力ディレクトリのパスを動的に作成
-        INPUTFILE="/home/8/uf02678/gsbsmasunaga/origin_data_minfrag/dataset_consistentsmiles-${CONFIG_SUFFIX}.joblib"
+        INPUTFILE="/home/8/uf02678/gsbsmasunaga/MMP_dataset/dataset_consistentsmiles-${CONFIG_SUFFIX}.joblib"
         OUTPUT_DIR="/home/8/uf02678/gsbsmasunaga/bioiso/gbdt/results_consistentsmiles-${CONFIG_SUFFIX}"
         PKL_FILE="/home/8/uf02678/gsbsmasunaga/bioiso/splitting/tid_5cv_consistentsmiles_molecule.pkl"
 

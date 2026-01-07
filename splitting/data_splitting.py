@@ -30,33 +30,33 @@ Using leak_removal_mode="filtered_test" improves train data retention rate
 Usage examples:
     # Basic splitting only (no filtering)
     python data_splitting.py \
-        --csv_path ../origin_data_minfrag/dataset_consistentsmiles.csv \
+        --csv_path ../MMP_dataset/dataset_consistentsmiles.csv \
         --output_dir ../pro_GNN/dataset/dataset_consistentsmiles_41 \
-        --data_path ../origin_data_minfrag/dataset_consistentsmiles.pt \
+        --data_path ../MMP_dataset/dataset_consistentsmiles.pt \
         --pkl_output tid_5cv_consistentsmiles_41.pkl \
         --seed 41
     
     # MMP leak removal only
     python data_splitting.py \
-        --csv_path ../origin_data_minfrag/dataset_consistentsmiles.csv \
+        --csv_path ../MMP_dataset/dataset_consistentsmiles.csv \
         --output_dir ../pro_GNN/dataset/dataset_consistentsmiles_41_no_leak \
-        --data_path ../origin_data_minfrag/dataset_consistentsmiles.pt \
+        --data_path ../MMP_dataset/dataset_consistentsmiles.pt \
         --pkl_output tid_5cv_consistentsmiles_41_no_leak.pkl \
         --seed 41 --remove_mmp_leak
     
     # Molecule leak removal (prevents 3-way leaks, recommended)
     python data_splitting.py \
-        --csv_path ../origin_data_minfrag/dataset_consistentsmiles.csv \
+        --csv_path ../MMP_dataset/dataset_consistentsmiles.csv \
         --output_dir ../pro_GNN/dataset/dataset_consistentsmiles_molecule \
-        --data_path ../origin_data_minfrag/dataset_consistentsmiles.pt \
+        --data_path ../MMP_dataset/dataset_consistentsmiles.pt \
         --pkl_output tid_5cv_consistentsmiles_molecule.pkl \
         --remove_molecule_leak \
     
     # TID3+ filtering + molecule leak removal (most strict)
     python data_splitting.py \
-        --csv_path ../origin_data_minfrag/dataset_consistentsmiles.csv \
+        --csv_path ../MMP_dataset/dataset_consistentsmiles.csv \
         --output_dir ../pro_GNN/dataset/dataset_consistentsmiles_tid3_molecule \
-        --data_path ../origin_data_minfrag/dataset_consistentsmiles.pt \
+        --data_path ../MMP_dataset/dataset_consistentsmiles.pt \
         --pkl_output tid_5cv_consistentsmiles_tid3_molecule.pkl \
         --min_tid_count 3 --remove_molecule_leak \
         --leak_removal_mode filtered_test

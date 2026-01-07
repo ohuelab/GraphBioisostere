@@ -14,7 +14,7 @@ import os
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("target_dir", type=str, default="origin_data_minfrag/")
+parser.add_argument("target_dir", type=str, default="MMP_dataset/")
 args = parser.parse_args()
 
 
