@@ -194,7 +194,7 @@ Key hyperparameters in `pro_GNN/config.py`:
 
 ```python
 class Args:
-    batch_size = 4096       # Batch size
+    batch_size = 8192       # Batch size
     hidden_dim = 64         # Hidden dimension
     embedding_dim = 64      # Embedding dimension
     num_layers = 2          # Number of GNN layers
@@ -218,36 +218,14 @@ Results are organized by:
 
 ## Citation
 
-If you use this code in your research, please cite:
-
-```bibtex
-@article{your_paper,
-  title={Graph Neural Networks for Bioisosteric Replacement Prediction},
-  author={Your Name},
-  journal={Journal Name},
-  year={2024}
-}
-```
 
 ## License
-
-[Specify your license here, e.g., MIT, Apache 2.0]
 
 ## Contact
 
 For questions or issues, please:
 - Open an issue on GitHub
-- Contact: [your email]
+- Contact: 
 
-## Acknowledgments
 
-This project builds upon:
-- PyTorch Geometric for graph neural network implementations
-- RDKit for molecular informatics
-- LightGBM for baseline comparisons
 
-## Notes
-
-- The dataset (`MMP_dataset/`) is not included in this repository and must be obtained separately
-- GPU with at least 16GB memory is recommended for training
-- Training time varies by fold and configuration (typically 1-3 hours per fold on modern GPUs)
