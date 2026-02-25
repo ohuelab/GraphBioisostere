@@ -217,12 +217,12 @@ Results are organized by:
 - Loss type (diff, cat, product)
 
 ## Citation
-
+Masunaga S, Furui K, Kengkanna A, Ohue M. *GraphBioisostere: general bioisostere prediction model with deep graph neural network*. _J Supercomput_ 82, 132 (2026). https://doi.org/10.1007/s11227-026-08232-y
 
 ## License
+Apache-2.0 license
 
 ## Contact
-
 For questions or issues, please:
 - Open an issue on GitHub
 - Contact: 
