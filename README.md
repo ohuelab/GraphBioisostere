@@ -1,5 +1,7 @@
 # GraphBioisostere
 
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/afd7281b-7e82-46b1-a6ce-40357bbe126a" />
+
 A Graph Neural Network-based model for predicting bioisosteric replacement in drug discovery. This repository contains the implementation of a deep learning approach that predicts whether molecular transformations will maintain or improve biological activity across different protein targets.
 
 ## Overview
